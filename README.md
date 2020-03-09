@@ -28,4 +28,4 @@ mvn clean install
 </dependency>
 ```
 
-Then import the PartitionUtils class and use it `like a boss` :joy: 
+Then import PartitionUtils class and use it `like a boss` :joy: 
