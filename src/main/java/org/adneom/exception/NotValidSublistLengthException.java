@@ -1,9 +1,10 @@
 package org.adneom.exception;
 
 /**
- * Thrown when "taille" is null or less or equal to zero.
+ * @author Bilal YEZZA
+ * Thrown when taille is null or negative or equals to zero when list is not empty.
  */
-public class NotValidSublistLengthException extends NotValidInputException {
+public class NotValidSublistLengthException extends AbstractInputException {
 
     public NotValidSublistLengthException() {
         super();
