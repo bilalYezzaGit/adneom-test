@@ -1,9 +1,10 @@
 package org.adneom.exception;
 
 /**
- * Throw when
+ * @author Bilal YEZZA
+ * Throw when liste is null.
  */
-public class NotValidListException extends NotValidInputException {
+public class NotValidListException extends AbstractInputException {
 
     public NotValidListException() {
         super();
